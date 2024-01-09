@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pseudo</title>
-</head>
-<body>
-    <h3>My heading</h3>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pseudo</title>
+        <style>
+            h3{
+                color: peru;
+            }
+            /* hover means mouse over */
+            h3:hover{
+                color: tomato;
+                background-color: skyblue;
+            }
+            input:focus{
+                color: blue;
+                /* padding-left: 20px; */
+                outline: 0;
+                border: 1px solid purple;
+            }
+            a:visited{
+                color: gray;
+            / }
+            /* li:last-child{
+                color: red;
+            } */
+            /* li:first-child{
+                color: aqua;
+            } */
+        </style>
+    </head>
+    <body>
+        <h3>My heading</h3>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <br />
+        <a href="https://www.google.com/" target="_blank">Google</a>
+        <a href="https://www.britannica.com/place/Madagascar">mada</a>
+
+        <ul>
+            <li>Alia</li>
+            <li>Dalia</li>
+            <li>Balia</li>
+            <li>kalia</li>
+            <li>malia</li>
+            <li>palia</li>
+            <li>jalia</li>
+        </ul>
+    </body>
 </html>
